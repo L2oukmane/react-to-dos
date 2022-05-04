@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# REACT TO-DO-APP | MODULE-III
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Reaxt to-do-app is simple application being built in our third module of our curriculum at microverse.
 
-## Available Scripts
+### Features implemented so far are:
 
-In the project directory, you can run:
+- Responsive HTML page
+- Set up a React app.
+- Use React documentation.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- REACT (a JavaScript library for building a fast and interactive user interface.)
+- Babel (a JavaScript transcompiler that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript that can be run by older JavaScript engines.)
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+- Webpack (A JavaScript module bundler)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple example steps.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The basic requirements for building the executable are:
 
-### `npm run build`
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Cloning the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/L2oukmane/Math-Magicians.git <Your-Build-Directory>
+```
 
-### `npm run eject`
+### To get all package modules required to build the project run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Building
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Unit-Testing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can find all of the unit test for testing all components in the src/**Test** folder located in the parent source directory of the project. you can create your own custom unit test and test it by running
 
-### Code Splitting
+```
+npm run test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### from parent source directory
 
-### Analyzing the Bundle Size
+## Getting packages and debuging with ESlint
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
 
-### Making a Progressive Web App
+##### For validation detection using Stylelint Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npx eslint .
+```
 
-### Advanced Configuration
+##### from parent source directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Create React App
 
-### Deployment
+```
+npx create-react-app my-app
+cd my-app
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
 
-### `npm run build` fails to minify
+##### from parent source directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+All source code files are licensed under the permissive zlib license
+(http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
+
+## Author
+
+- **Loukmane Oustani** - [github](https://github.com/L2oukmane), [linkedin](https://www.linkedin.com/in/loukmane-oustani-221668211/), [twitter](https://twitter.com/LoukmaneOustani)
