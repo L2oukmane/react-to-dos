@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 class TodosList extends React.Component {
-  render(){
+  render() {
     return (
       <ul>
-        {this.props.todos.map( todo => (
-            <li key={todo.id}>{todo.title}</li>
+        {this.props.todos.map((todo) => (
+          <li key={todo.id}>{todo.title}</li>
         ))}
       </ul>
-    )
+    );
   }
 }
 
